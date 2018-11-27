@@ -6,7 +6,8 @@ used in the test taker's DigabiOS/Abitti environment.
 
 ## Building the install package
 
- * The install package can be built with Inno Setup (http://www.jrsoftware.org/isinfo.php).
+ * The install package can be built with Inno Setup (http://www.jrsoftware.org/isinfo.php). `make_install_package.bat`
+creates the package. You may need to set the `ISCC` variable to point to your Inno Setup.
  * You need ffmpeg (http://ffmpeg.zeranoe.com/builds/). Drop the content of the ffmpeg distribution
 zip to the same directory with convert scripts, iss file etc.
  * You also need SoX (https://sourceforge.net/projects/sox/). Take the latest sox-[version]-win32.zip
