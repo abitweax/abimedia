@@ -63,7 +63,6 @@ Trademarks:
  * Invented a name and published the scripts
 
 0.2 (2017-11-29)
- * Rewrote audio and video scripts to correspond the settings used at the MEB
  * Added sox
  * Updated ffmpeg to 20171128-86cead5-win32
- * Removed fast video conversion as it is not used by MEB
+
