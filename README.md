@@ -60,10 +60,12 @@ Trademarks:
 
 ## Changelog
 
+0.4 (2018-11-28)
+ * Changed SendTo menu shortcut texts
+ 
 0.3 (2018-11-27)
  * Invented a name and published the scripts
 
 0.2 (2017-11-29)
  * Added sox
  * Updated ffmpeg to 20171128-86cead5-win32
-
