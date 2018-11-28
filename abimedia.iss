@@ -33,6 +33,6 @@ Source: "ffmpeg\doc\*"; DestDir: "{app}\ffmpeg\doc"; Excludes: "*Zone.Identifier
 Source: "ffmpeg\presets\*"; DestDir: "{app}\ffmpeg\presets"; Excludes: "*Zone.Identifier"; Flags: ignoreversion uninsremovereadonly
 Source: "sox\*"; DestDir: "{app}\sox"; Excludes: "*Zone.Identifier"; Flags: ignoreversion uninsremovereadonly
 [Icons]
-Name: "{sendto}\Abimedia Audio"; Filename: "{app}\abimedia_audio.bat"; IconFilename: "{app}\abimedia_audio.ico"; Parameters: "{app}"; WorkingDir: "{app}"
-Name: "{sendto}\Abimedia Video Width less than 850px"; Filename: "{app}\abimedia_video_up849.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
-Name: "{sendto}\Abimedia Video Widescreen"; Filename: "{app}\abimedia_video_wide.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
+Name: "{sendto}\Abimedia - Muunna äänitiedosto"; Filename: "{app}\abimedia_audio.bat"; IconFilename: "{app}\abimedia_audio.ico"; Parameters: "{app}"; WorkingDir: "{app}"
+Name: "{sendto}\Abimedia - Muunna videotiedosto (leveys alle 850 pikseliä)"; Filename: "{app}\abimedia_video_up849.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
+Name: "{sendto}\Abimedia - Muunna videotiedosto (leveys koko näyttö)"; Filename: "{app}\abimedia_video_wide.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
