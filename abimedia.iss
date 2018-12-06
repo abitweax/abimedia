@@ -16,6 +16,7 @@ AppPublisherURL=https://abitweax.github.io/
 AppSupportURL=https://abitweax.github.io/
 AppUpdatesURL=https://github.com/abitweax/abimedia/releases/latest
 DisableProgramGroupPage=yes
+DefaultGroupName=Abimedia
 DisableDirPage=yes
 DefaultDirName={userpf}\Abimedia
 Compression=lzma
@@ -31,6 +32,7 @@ UninstallDisplayIcon={app}\abimedia_256x256.ico
 [Files]
 Source: "README.md"; DestDir: "{app}\README.txt"; Flags: ignoreversion uninsremovereadonly
 Source: "abimedia_audio.bat"; DestDir: "{app}"; Flags: ignoreversion uninsremovereadonly
+Source: "abimedia_remove.bat"; DestDir: "{app}"; Flags: ignoreversion uninsremovereadonly
 Source: "abimedia_video_up849.bat"; DestDir: "{app}"; Flags: ignoreversion uninsremovereadonly
 Source: "abimedia_video_wide.bat"; DestDir: "{app}"; Flags: ignoreversion uninsremovereadonly
 Source: "abimedia_audio.ico"; DestDir: "{app}"; Flags: ignoreversion uninsremovereadonly
@@ -42,6 +44,7 @@ Source: "ffmpeg\doc\*"; DestDir: "{app}\ffmpeg\doc"; Excludes: "*Zone.Identifier
 Source: "ffmpeg\presets\*"; DestDir: "{app}\ffmpeg\presets"; Excludes: "*Zone.Identifier"; Flags: ignoreversion uninsremovereadonly
 Source: "sox\*"; DestDir: "{app}\sox"; Excludes: "*Zone.Identifier"; Flags: ignoreversion uninsremovereadonly
 [Icons]
+Name: "{group}\Poista asennus"; Filename: "{app}\abimedia_remove.bat"; IconFilename: "{app}\abimedia_256x256.ico"; WorkingDir: "{app}"
 Name: "{usersendto}\Abimedia - Muunna äänitiedosto"; Filename: "{app}\abimedia_audio.bat"; IconFilename: "{app}\abimedia_audio.ico"; Parameters: "{app}"; WorkingDir: "{app}"
 Name: "{usersendto}\Abimedia - Muunna videotiedosto (leveys alle 850 pikseliä)"; Filename: "{app}\abimedia_video_up849.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
 Name: "{usersendto}\Abimedia - Muunna videotiedosto (leveys koko näyttö)"; Filename: "{app}\abimedia_video_wide.bat"; IconFilename: "{app}\abimedia_video.ico"; Parameters: "{app}"; WorkingDir: "{app}"
